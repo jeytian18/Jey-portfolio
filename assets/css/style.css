@@ -40,13 +40,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff0101;
+  --color-primary: #89B0D3;
   --color-secondary: #f4f5f6;
-  --color-tertiary: #0d1013;
+  --color-tertiary: #082A4C;
   --color-gray: #f6f6f6;
-  --color-subtitle: #f90000;
-  --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
-  --background-color-2: #212428;
+  --color-subtitle: #2D5C88;
+  --background-color-1: linear-gradient(145deg, #2D5C88, #082A4C);
+  --background-color-2: #082A4C;
   --shadow-1: 10px 10px 19px #1c1e22,
       -10px -10px 19px #262a2e;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
@@ -56,7 +56,7 @@
   --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
   --color-heading: #ffffff;
   --color-heading-wv: #1e2125;
-  --color-body: #878e99;
+  --color-body: #89B0D3;
   --color-body-white: #3c3e41;
   --color-lightn: #c4cfde;
   --color-midgray: #878787;
@@ -8014,11 +8014,7 @@ ul.slick-dots li button {
 }
 
 /*!
-Animate.css - http://daneden.me/animate
-Version - 3.4.0
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
+Animate.css
 */
 .animated {
   -webkit-animation-duration: 1s;
